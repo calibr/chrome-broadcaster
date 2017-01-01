@@ -1,4 +1,4 @@
-# Broadcast message for Chrome Extensions
+# Broadcast messages for Chrome Extensions
 
 ## Why?
 
@@ -18,7 +18,7 @@ chrome.runtime.sendMessage(...);
 
 But Chrome behaviour for this among versions and even inside a single version is inconsistent:
 
-- up to 57 onMessage listener within the one frame will be triggered only if there are at least two extensions frames(`chrome.extension.getViews().length > 1`)
+- up to 57 onMessage listener within one frame will be triggered only if there are at least two extension's frames(`chrome.extension.getViews().length > 1`)
 - in versions from 57 `onMessage` is not triggered within one frame in any case. *It is the expected behaviour.*
 
 For further reading see:
