@@ -22,8 +22,8 @@ But Chrome behaviour for this among versions and even inside a single version is
 - in versions from 57 `onMessage` is not triggered within one frame in any case. *It is the expected behaviour.*
 
 For further reading see:
-https://bugs.chromium.org/p/chromium/issues/detail?id=677692
-https://bugzilla.mozilla.org/show_bug.cgi?id=1286124#c35
+- https://bugs.chromium.org/p/chromium/issues/detail?id=677692
+- https://bugzilla.mozilla.org/show_bug.cgi?id=1286124#c35
 
 ## Usage
 
